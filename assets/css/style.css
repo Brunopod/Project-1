@@ -52,3 +52,20 @@ h1 , h2 {
 .current {
     border-bottom: 1px solid black;
 }
+
+/*food image and site creed*/
+#society-creed {
+    height: 450px;
+    margin-top: 5%;
+    background-color: black ;
+}
+
+#left {
+    width: 50%;
+    height: inherit;
+}
+#left-image {
+    background: url('../images/Hamburger.jpg');
+    height: 100%;
+}
+
