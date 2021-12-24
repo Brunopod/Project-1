@@ -112,7 +112,7 @@ section p {
 }
 /*Footer*/
 #footer {
-    height: 150px;
+    height: 130px;
 }
 .social-media{
     text-align: center;
@@ -127,4 +127,18 @@ section p {
 }
 i:hover {
     border-bottom: red solid 1px;
+}
+
+/* Form */
+
+.navigation {
+    margin-bottom: 10px;
+}
+
+#form {
+    clear: both;
+    background: url('../images/plated-burgers.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 900px;
 }
