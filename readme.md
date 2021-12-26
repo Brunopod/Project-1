@@ -5,7 +5,8 @@ The Hamburger Society is a food themed website focused on creating a vibrant com
 
 Users of the site will be able to connect with other members via our social media and if they sign up receive a concise monthly "foodletter" detailing excellent spots to find food in Zagreb.
 
-RESPONSIVENESS IMAGE HERE
+<img src="assets/images/home-res.jpg">
+<img src="assets/images/sign-up-res.jpg">
 
 ## Features
 <hr>
@@ -29,7 +30,7 @@ RESPONSIVENESS IMAGE HERE
 ## About Us
 <ul>
 <li>The About Us section has a short description of the idea around the community and their beliefs
-<li>A Benefits list is included as an easy way to describe what this community offers to its users
+<li>A benefits list is included as an easy way to describe what this community offers to its users
 <li>It is styled in the same way the previous sections of the page, a very simple contrasting black and white style which offers a classy and simple look reflecting of a hamburger as a food itself
 </ul>
 <img src="assets/images/about-us.jpg">
@@ -74,7 +75,7 @@ RESPONSIVENESS IMAGE HERE
 
 <ul><li>I had trouble resizing the main header image to fit all screen sizes
 <li>The page title was overlapping the content on smaller screen sizes
-<li>The problems were fixed using the proper style in css @media queries 
+<li>The problems were fixed using  @media queries in style.css
 </ul>
 
 ## Unfixed Bugs
@@ -93,7 +94,7 @@ RESPONSIVENESS IMAGE HERE
 <li>The colors and fonts chosen are cotrasting and easy to read which is confirmed by running the site through the Lighthouse in dev tools
 </ul>
 
-IMAGE OF LIGHTHOUSE
+<img src="assets/images/lighthouse.jpg">
 
 <hr>
 
@@ -112,11 +113,11 @@ The live link is provided here: *LINK*
 
 ### Content
  
- <li> The code in the footer for the social media was taken from CI [Love Running] (https://github.com/Code-Institute-Org/love-running-2.0)
+  The code in the footer for the social media was taken from CI [Love Running] (https://github.com/Code-Institute-Org/love-running-2.0)
 
 ### Media
 
-<li>The images used in the header and sign up page are from https://pxhere.com/
+The images used in the header and sign up page are from https://pxhere.com/
 
 
 
