@@ -22,7 +22,7 @@ RESPONSIVENESS IMAGE HERE
 <li>The header displays an image of a delicious hamburger with a fiery background
 <li>To the right of the image is a short and almost medieval aspiration of the society
 </ul>
-<img src="assets/images/HEADER.png">
+<img src="assets/images/header.png">
 
 <hr>
 
@@ -45,9 +45,13 @@ RESPONSIVENESS IMAGE HERE
 
 <hr>
 
-## The Sign Up Page
+## Sign Up Page
 
-content HERE
+<li>Header and Footer remain the same as the home page with the exclusion of the About Us internal link
+<li>The body of the page consists of a simple form requesting First and Last Name and email with a submit button</li>
+
+<img src="assets/images/sign-up.jpg">
+<hr>
 
 
 ## Features Left To Implement
@@ -98,7 +102,7 @@ IMAGE OF LIGHTHOUSE
 The site was deployed to GitHub pages in these steps:
 <li>In the GitHub repository, navigate to the Settings tab
 <li>From the source section drop-down menu, select the Master Branch
-<li>Once the master branch has been selected, the page produced the link to the complete page
+<li>Once the master branch has been selected, the page produced the link to the complete page</li>
 
 The live link is provided here: *LINK*
 

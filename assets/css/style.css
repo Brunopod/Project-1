@@ -5,13 +5,15 @@
     padding: 0;
     margin: 0;
 }
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     color: #252323;
 }
 
-/* header*/
+/* Header*/
+
 #logo {
     text-align: center;
     background-color: black;
@@ -19,26 +21,33 @@ body {
     font-size: 250%;
     width: 100%;
 }
+
 #logo a {
     text-decoration: none;
 }
-h1 , h2 {
+
+h1,
+h2 {
     font-family: 'Bebas Neue', sans-serif;
     letter-spacing: 2px;
     color: black;
 }
+
 .main-title {
     color: white;
     line-height: 150px;
 }
+
 #menu {
     width: 100%;
     font-size: 120%;
     text-align: center;
 }
+
 #menu a {
     text-decoration: none;
 }
+
 #menu li {
     list-style-type: none;
     display: inline-block;
@@ -48,11 +57,13 @@ h1 , h2 {
 #menu h2:hover {
     border-bottom: 1px solid black;
 }
+
 .current {
     border-bottom: 1px solid black;
 }
 
-/*food image and site creed*/
+/*Food image and site creed*/
+
 #society-creed {
     height: 550px;
     margin-top: 3%;
@@ -64,29 +75,36 @@ h1 , h2 {
     height: 550px;
     float: left;
 }
+
 #left-image {
     background-image: url('../images/hamburger.jpg');
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
     height: 550px;
 }
+
 #right {
     float: right;
     width: 50%;
     height: 300px;
-    padding-top: 250px;
+    padding-top: 200px;
 }
+
 .heading {
     text-align: center;
 }
+
 #right h2 {
     font-size: 200%;
 }
- /* About Us section*/
+
+/* About Us section*/
 
 #about {
     height: 500px;
     background-color: black;
 }
+
 .about-title {
     color: white;
     font-size: 300%;
@@ -96,35 +114,44 @@ h1 , h2 {
     margin-left: 20px;
     display: inline-block;
 }
+
 section p {
     font-size: 150%;
     color: white;
     margin-top: 20px;
     margin-left: 10px;
 }
+
 #benefit {
     margin-top: 30px;
 }
+
 .lists {
     color: white;
     margin-top: 20px;
     margin-left: 280px;
 }
+
 /*Footer*/
+
 #footer {
     height: 130px;
 }
-.social-media{
+
+.social-media {
     text-align: center;
 }
-.social-media > li {
+
+.social-media>li {
     display: inline;
 }
+
 .social-media i {
     font-size: 200%;
     padding: 3% 3% 1% 3%;
     color: black;
 }
+
 i:hover {
     border-bottom: red solid 1px;
 }
@@ -142,6 +169,7 @@ i:hover {
     background-position: center;
     height: 900px;
 }
+
 .signup-form {
     background-color: rgba(0, 0, 0, 0.72);
     max-width: 600px;
@@ -150,12 +178,14 @@ i:hover {
     margin: 200px 150px 150px 30%;
     padding: 20px;
 }
+
 .signup-form h2 {
     color: white;
     font-size: 250%;
     text-align: center;
     margin-bottom: 30px;
 }
+
 .text-input {
     padding: 5px;
     width: 100%;
@@ -163,19 +193,75 @@ i:hover {
     color: rgba(64, 61, 61, 1);
     margin: 5px 0 5px 0;
 }
+
 .input-label {
     color: white;
 }
 
 .fbutton {
     background-color: brown;
-    margin: 10% 50% 30px 38%;
+    margin: 10% 50% 30px 35%;
     padding: 20px 40px 20px 40px;
     color: black;
     text-align: center;
     font-size: 120%;
 }
+
 .fbutton:hover {
     background-color: white;
 }
-/**/
+
+/*Media queries*/
+
+@media screen and (max-width: 750px) {
+    .main-title {
+        font-size: 85%;
+    }
+
+    section p {
+        font-size: 85%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .about-title {
+        font-size: 150%;
+    }
+
+    .lists {
+        margin-left: 140px;
+        padding: 0;
+    }
+
+    footer {
+        margin-top: 20%;
+        height: 70px;
+    }
+    .signup-form {
+        padding-bottom: 30px;
+        height: 550px;
+        position: absolute;
+    }
+    .fbutton {
+        padding: 10px 15px 10px 15px;
+        margin-top: 40%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .main-title {
+        font-size: 70%;
+    }
+    h2 {
+        font-size: 100%;
+    }
+    .signup-form {
+        height: 500px;
+        margin-right: 1000px;
+    }
+    .fbutton {
+        padding: 5px 10px 5px 10px;
+        margin-right: 75px;
+        margin-top: 50%;
+    }
+}
