@@ -3,7 +3,7 @@
 
 The Hamburger Society is a food themed website focused on creating a vibrant community of food enjoyers, specifically focused on finding the best hamburgers in the greater Zagreb area.
 
-Users of the site will be able to connect with other members via our social media and if they sign up receive a concise monthly "foodletter" detailing excellent spots to find food in Zagreb.
+Users of the site will be able to connect with other members via our social media and if they sign up, they will also receive a concise monthly "foodletter" detailing excellent spots to find food in Zagreb.
 
 <img src="assets/images/home-res.jpg">
 <img src="assets/images/sign-up-res.jpg">
